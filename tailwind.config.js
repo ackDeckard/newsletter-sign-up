@@ -2,11 +2,11 @@
 module.exports = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
-	],
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
+  ],
   theme: {
     container: {
       center: true,
@@ -25,12 +25,30 @@ module.exports = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: 0 },
         },
+        bounce: {
+          "0%, 100%": { transform: "translateY(0%)" },
+          "25%": { transform: "translateY(-5%)" },
+          "50%": { transform: "translateY(5%)" },
+        },
+        opacitysettings: {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 },
+        },
+        spin: {
+          "0%": { transform: "rotate(0.0deg)" },
+          "50%": { transform: "rotate(-18deg)" },
+          "100%": { transform: "rotate(0.0deg)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        opacityCreator: "opacitysettings 2.7s ease-in forwards",
+      },
+      listStyleImage: {
+        iconlist: 'url("/icon-list.svg")',
       },
     },
   },
   plugins: [require("tailwindcss-animate")],
-}
+};
