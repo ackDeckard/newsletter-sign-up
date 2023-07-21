@@ -896,7 +896,7 @@ export default function Home() {
         </div>
 
         <div className="p-6 lg:col-start-1 lg:pl-16">
-          <h4 className="text-[40px] font-bold text-bgColor lg:text-[56px]">
+          <h4 className="pb-4 text-[40px] font-bold text-titleColor lg:text-[56px]">
             Stay updated!
           </h4>
           <h5 className="mb-6 text-bgColor ">

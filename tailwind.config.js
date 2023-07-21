@@ -51,6 +51,7 @@ module.exports = {
     },
     colors: {
       bgColor: "hsla(234, 17%, 26%, 1)",
+      titleColor: "hsla(234, 29%, 20%, 1)",
       emailColor: "hsl(234, 29%, 20%)",
       errorColor: "hsl(4, 100%, 67%, 1)",
       white: "hsla(0, 0%, 100%, 1)",
