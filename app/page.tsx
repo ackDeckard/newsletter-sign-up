@@ -3,7 +3,7 @@ import ListItems from "@/components/listitems";
 
 export default function Home() {
   return (
-    <main className="grid min-h-screen place-items-center  bg-emailColor">
+    <main className="grid min-h-screen place-items-center  bg-bgColor">
       <section className="grid h-full w-full grid-rows-[min-content_1fr] bg-white lg:h-[641px] lg:w-[928px] lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-1 lg:place-items-center  lg:rounded-lg">
         <div className="lg:hidden ">
           <svg
@@ -896,10 +896,10 @@ export default function Home() {
         </div>
 
         <div className="p-6 lg:col-start-1 lg:pl-16">
-          <h4 className="text-[40px] font-bold lg:text-[56px] ">
+          <h4 className="text-[40px] font-bold text-bgColor lg:text-[56px]">
             Stay updated!
           </h4>
-          <h5 className="mb-6 ">
+          <h5 className="mb-6 text-bgColor ">
             Join 60,000+ product managers receiving monthly updates on:
           </h5>
           <ListItems />
