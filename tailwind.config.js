@@ -56,6 +56,7 @@ module.exports = {
       white: "hsla(0, 0%, 100%, 1)",
       topGradient: "hsl(15, 100%, 61%)",
       bottomGradient: "hsl(346, 100%, 66%)",
+      inputBorder: "hsla(243, 28%, 13%, 1)",
     },
   },
   plugins: [require("tailwindcss-animate")],
