@@ -49,6 +49,13 @@ module.exports = {
         iconlist: 'url("/icon-list.svg")',
       },
     },
+    colors: {
+      emailColor: "hsl(234, 29%, 20%)",
+      errorColor: "hsl(4, 100%, 67%, 1)",
+      white: "hsla(0, 0%, 100%, 1)",
+      topGradient: "hsl(15, 100%, 61%)",
+      bottomGradient: "hsl(346, 100%, 66%)",
+    },
   },
   plugins: [require("tailwindcss-animate")],
 };
