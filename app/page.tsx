@@ -4,7 +4,7 @@ import ListItems from "@/components/listitems";
 export default function Home() {
   return (
     <main className="grid min-h-screen place-items-center  bg-bgColor">
-      <section className="grid h-full w-full grid-rows-[min-content_1fr] bg-white lg:h-[641px] lg:w-[928px] lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-1 lg:place-items-center  lg:rounded-lg">
+      <section className="grid h-full w-full grid-rows-[min-content_1fr] bg-white lg:h-[641px] lg:w-[928px] lg:grid-flow-col lg:grid-cols-2 lg:grid-rows-1 lg:place-items-center  lg:rounded-[36px]">
         <div className="lg:hidden ">
           <svg
             width="100%"

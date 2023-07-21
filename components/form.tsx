@@ -59,7 +59,7 @@ const CreateReminder = () => {
               </div>
               <FormControl>
                 <Input
-                  className={`cursor-pointer rounded-lg ${
+                  className={`h-[56px] cursor-pointer rounded-lg ${
                     form.formState.errors.email
                       ? "border-errorColor bg-errorColor/20 placeholder:text-errorColor"
                       : "bg-white placeholder:text-emailColor/20"
